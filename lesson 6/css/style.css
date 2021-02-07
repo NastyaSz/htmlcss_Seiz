@@ -1,0 +1,66 @@
+form{
+    width: 1000px;
+}
+p{
+    margin: 10px;
+}
+textarea{
+    resize: none;
+}
+select, input{
+    width: 250px;
+}
+label{
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+}
+sub{
+    color: red;
+    font-size:small;
+}
+.caption{
+    background-color: lightgreen;
+    padding: 10px;
+}
+.container{
+    display: flex;
+   justify-content: left;
+}
+.website{
+    display: flex;
+    justify-content: space-between;
+
+}
+.url{
+    width: 100px;
+    font-weight: normal;
+}
+.link{
+    width: 150px;
+}
+.time{
+    display: flex;
+    justify-content:left;
+    margin-top: 20px;
+}
+.radio{
+    width: 20px;
+}
+.radiobutton{
+    font-weight: normal;
+}
+.buttons{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 100px;
+    background-color: rgb(150, 202, 47);
+    color: white;
+    padding: 2px 20px;
+    border-width: 1px;
+    margin: 10px 0;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HW 6</title>
+</head>
+
+<body>
+    <form>
+        <h1 class="caption">Contact Manager</h1>
+        <div class="container">
+            <div class="content">
+                <p>
+                    <label for="name">First Name<sub>*</sub></label>
+                    <input type="text" id="name" required>
+                </p>
+                <p>
+                    <label for="lastname">Last Name<sub>*</sub></label>
+                    <input type="text" id="lastname" required>
+                </p>
+                <p>
+                    <label for="address">Address</label>
+                    <textarea rows="10" cols="33" id="address"></textarea>
+                </p>
+                <p><label for="city">City</label>
+                    <input type="text" id="city">
+                </p>
+                <p><label for="state">State</label>
+                    <select id="state">
+                        <option value="s1">Select</option>
+                        <option value="s2">Select2</option>
+                        <option value="s3">Select3</option>
+                        <option value="s4">Select4</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="zip">Zip</label>
+                    <input type="text" id="zip">
+                </p>
+                <p>
+                    <label for="homephone">Home Phone</label>
+                    <input type="tel" id="homephone">
+                </p>
+                <p>
+                    <label for="workphone">Work Phone<sub>*</sub></label>
+                    <input type="tel" id="workphone" required>
+                </p>
+                <p>
+                    <label for="fax">Fax Number</label>
+                    <input type="text" id="fax">
+                </p>
+                <div class="website">
+                    <div>
+                        <p style="font-weight: bold;">Website</p>
+                    </div>
+                
+                    <div>
+                        <p>
+                        <label  class="url" for="url">URL</label>
+                        <input class="link" type="url" id="url">
+                        </p>
+                        <p>
+                        <label class="url" for="link">Link Name</label>
+                        <input class="link" type="text" id="link">
+                        </p>
+                    </div>
+                </div>
+                <p>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email">
+                </p>
+            </div>
+            <div class="content">
+                <div class="time">
+                    <p style="font-weight: bold;">
+                        What is the best time to contact you?
+                    </p>   
+                    <div>
+                        <input class=radio type="radio" id="time1" name="time"><label class="radiobutton" for="time1">Morning</label>
+                        <br>
+                        <input class=radio type="radio" id="time2" name="time"><label class="radiobutton" for="time2">Afternoon</label>
+                        <br>
+                        <input class=radio type="radio" id="time3" name="time"><label class="radiobutton" for="time3">Evening</label>
+                    </div>  
+                </div>
+
+                <div class="time">
+                    <p style="font-weight: bold;">
+                        What is the best way to contact you?
+                    </p>   
+                    <div>
+                        <input class=radio type="radio" id="way1" name="way"><label class="radiobutton" for="way1">Phone</label>
+                        <br>
+                        <input class=radio type="radio" id="way2" name="way"><label class="radiobutton" for="way2">Email</label>
+                        <br>
+                        <input class=radio type="radio" id="way3" name="way"><label class="radiobutton" for="way3">Fax</label>
+                    </div>  
+                </div>
+                <p>
+                    <label for="message">Message</label>
+                    <textarea rows="10" cols="33" id="address"></textarea>
+                </p>
+
+
+            </div>
+        </div>
+        <div class="buttons">
+            <input class="button" type="submit" value="Submit">
+            <input class="button" type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>
