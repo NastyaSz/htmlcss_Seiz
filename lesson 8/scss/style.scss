@@ -1,0 +1,104 @@
+@import "vars.scss";
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: $acentFont;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+.wrapper{
+    width: 1600px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 0 0;
+    margin-bottom: 130px;
+
+    &__logo{
+        margin-right: 97px;
+    }
+    &__menu{
+        display: flex;
+        margin-right: 720px;
+
+        &-item{
+            margin-right: 40px;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &-item:last-child{
+            margin-right: 0px;
+        }
+    }
+    &__button{
+        width: 120px;
+        font-size: 16px;
+        background-color: inherit;
+        padding: 18px 28px;
+        border-radius: 6px;
+    }
+    &__button:hover{
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        background: $bgColor;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    &__button:last-child{
+        margin-left: 10px;
+    }
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 25px 190px 200px;
+    &__caption{
+        font-family: $font;
+        font-weight: normal;
+        font-size: 72px;
+        margin-bottom: 10px;
+    }
+    &__text{
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.02em;
+        color: #9A9A9A;
+        margin-bottom: 50px;
+        margin-right: 55px;
+    }
+    &__button{
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        background-color: $bgColor;
+        border: none;
+        outline: none;
+        padding: 18px 32px;
+        border-radius: 6px;
+    }
+    &__button:hover{
+        cursor: pointer;
+    }
+    &__img{
+        width: 778px;
+    }
+}
+
+
